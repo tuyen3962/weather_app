@@ -6,6 +6,10 @@ Below is an overview of the key directories and files in this project:
 ## Framework
 Flutter - version 3.27.1
 
+## Platforms Supported
+Android
+iOS
+
 ## Architectural
 - **`.base/`**: this folder 
 - **`.constant/`**: Store the default variable for global use
@@ -41,6 +45,11 @@ To get started with the Weather App, follow these steps:
 
 1. **Clone the repository**:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/tuyen3962/weather_app.git
    cd weather_app
 
+2. **Install dependencies**:
+   flutter pub get
+
+3. **Run the app**:
+   flutter run
