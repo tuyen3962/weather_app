@@ -1,0 +1,34 @@
+name: weather_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  connectivity_plus: ^6.1.3
+  dio: ^5.8.0+1
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.0
+  geolocator: ^13.0.4
+  get_it: ^7.6.0
+  injectable: ^2.4.2
+  intl: ^0.20.2
+  json_annotation: ^4.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  injectable_generator:
+  json_serializable: any
+  build_runner: any
+  
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
