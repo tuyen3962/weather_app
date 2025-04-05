@@ -11,7 +11,7 @@ Android
 iOS
 
 ## Architectural
-- **`.base/`**: this folder 
+- **`.base/`**: This folder contains the base classes and utilities that provide foundational functionality for the application. These may include abstract classes, base widgets, or shared logic
 - **`.constant/`**: Store the default variable for global use
 - **`.model/`**: This folder contains the data models used throughout the application
 - **`.repository/`**: Handle call API and convert data from API to specific model
